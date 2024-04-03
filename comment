@@ -1,0 +1,15 @@
+all debug to delete
+
+starting from L and # to count as comment
+
+if there is no answer - error
+
+	for _, c := range allcombs {
+		for _, r := range c {
+			for _, n := range r {
+				fmt.Print(n, " ")
+			}
+			fmt.Println()
+		}
+		fmt.Println("---")
+	}
