@@ -34,21 +34,23 @@ Where:
 - y, w, o represent the rooms names.
 
 ## Example
-
 ```
+$ go run . test1.txt
+3
+2 5 0
 ##start
-1 1 1
-2 2 2
+0 1 2
 ##end
-3 3 3
-1-2
+1 9 2
+3 5 4
+0-2
+0-3
+2-1
+3-1
 2-3
+
+L1-2 L2-3
+L1-1 L2-1 L3-2
+L3-1
+$
 ```
-
-## Usage
-
-Run the program with the input file as an argument:
-
-```bash
-./lem-in input_file.txt
-``
